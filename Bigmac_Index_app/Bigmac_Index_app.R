@@ -14,7 +14,7 @@ ui <- dashboardPage(
   dashboardHeader(title = "Big Mac Index"),
   dashboardSidebar(
     
-    # 3 input for the first Dashboard: date, a base currency and either adjusted or raw price
+    # 3 inputs for the first Dashboard: date, a base currency and either adjusted or raw price
     selectInput('date', 'Select a date:', unique(bigmac$date), selected = "2020-07-01"),
     selectInput("base",
                 label = "Select a base currency",
@@ -64,7 +64,7 @@ ui <- dashboardPage(
 
 server <- function(input, output) {
   
-  # Getting the data using 3 inputs: date, base, type (raw or adjuted)
+  # Filtering the data using 3 inputs: date, base, type (raw or adjusted)
   data <- reactive( {
     
       bigmac %>%
