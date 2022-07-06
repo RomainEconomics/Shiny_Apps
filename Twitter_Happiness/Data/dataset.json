@@ -1,0 +1,300 @@
+{
+    "code": "TWTEMO",
+    "dimensions_codes_order": [
+        "freq",
+        "emotion",
+        "account"
+    ],
+    "dimensions_labels": {
+        "freq": "Frequency",
+        "emotion": "Emotion",
+        "account": "Account"
+    },
+    "dimensions_values_labels": {
+        "freq": {
+            "M": "Monthly",
+            "D": "Daily"
+        },
+        "emotion": {
+            "SENT": "Net Sentiment",
+            "JOY": "Joy",
+            "FEAR": "Fear",
+            "SADNESS": "Sadness",
+            "ANGER": "Anger"
+        },
+        "account": {
+            "ALL": "ALL",
+            "WOMEN": "WOMEN",
+            "MEN": "MEN",
+            "EXTREMEDROITE": "EXTREMEDROITE",
+            "DROITE": "DROITE",
+            "CENTRE": "CENTRE",
+            "GAUCHE": "GAUCHE",
+            "EXTREMEGAUCHE": "EXTREMEGAUCHE",
+            "LIBE": "Lib\u00e9ration",
+            "LEMONDEFR": "Le Monde",
+            "LE_FIGARO": "Le Figaro",
+            "VALEURS": "Valeurs Actuelles",
+            "THINKER_VIEW": "Thinker View",
+            "HUGODECRYPTE": "Hugo D\u00e9crypte",
+            "KONBINI": "Konbini",
+            "QOFFICIEL": "Quotidien",
+            "LACROIX": "La Croix",
+            "LESECHOS": "Les Echos",
+            "HUMANITE_FR": "L'humanit\u00e9",
+            "CANARDENCHAINE": "Le canard encha\u00een\u00e9",
+            "MEDIAPART": "M\u00e9diapart"
+        }
+    },
+    "name": "Twitter Emotion Index",
+    "series": [
+        {
+            "code": "D.SENT.ALL",
+            "dimensions": {
+                "freq": "D",
+                "emotion": "SENT",
+                "account": "ALL"
+            }
+        },
+        {
+            "code": "D.JOY.ALL",
+            "dimensions": {
+                "freq": "D",
+                "emotion": "JOY",
+                "account": "ALL"
+            }
+        },
+        {
+            "code": "D.SADNESS.ALL",
+            "dimensions": {
+                "freq": "D",
+                "emotion": "SADNESS",
+                "account": "ALL"
+            }
+        },
+        {
+            "code": "D.FEAR.ALL",
+            "dimensions": {
+                "freq": "D",
+                "emotion": "FEAR",
+                "account": "ALL"
+            }
+        },
+        {
+            "code": "D.ANGER.ALL",
+            "dimensions": {
+                "freq": "D",
+                "emotion": "ANGER",
+                "account": "ALL"
+            }
+        },
+        {
+            "code": "D.DISGUST.ALL",
+            "dimensions": {
+                "freq": "D",
+                "emotion": "DISGUST",
+                "account": "ALL"
+            }
+        },
+        {
+            "code": "M.SENT.ALL",
+            "dimensions": {
+                "freq": "M",
+                "emotion": "SENT",
+                "account": "ALL"
+            }
+        },
+        {
+            "code": "M.JOY.ALL",
+            "dimensions": {
+                "freq": "M",
+                "emotion": "JOY",
+                "account": "ALL"
+            }
+        },
+        {
+            "code": "M.SADNESS.ALL",
+            "dimensions": {
+                "freq": "M",
+                "emotion": "SADNESS",
+                "account": "ALL"
+            }
+        },
+        {
+            "code": "M.FEAR.ALL",
+            "dimensions": {
+                "freq": "M",
+                "emotion": "FEAR",
+                "account": "ALL"
+            }
+        },
+        {
+            "code": "M.ANGER.ALL",
+            "dimensions": {
+                "freq": "M",
+                "emotion": "ANGER",
+                "account": "ALL"
+            }
+        },
+        {
+            "code": "M.SENT.WOMEN",
+            "dimensions": {
+                "freq": "M",
+                "emotion": "SENT",
+                "account": "WOMEN"
+            }
+        },
+        {
+            "code": "M.SENT.MEN",
+            "dimensions": {
+                "freq": "M",
+                "emotion": "SENT",
+                "account": "MEN"
+            }
+        },
+        {
+            "code": "M.SENT.EXTREMEDROITE",
+            "dimensions": {
+                "freq": "M",
+                "emotion": "SENT",
+                "account": "EXTREMEDROITE"
+            }
+        },
+        {
+            "code": "M.SENT.DROITE",
+            "dimensions": {
+                "freq": "M",
+                "emotion": "SENT",
+                "account": "DROITE"
+            }
+        },
+        {
+            "code": "M.SENT.CENTRE",
+            "dimensions": {
+                "freq": "M",
+                "emotion": "SENT",
+                "account": "CENTRE"
+            }
+        },
+        {
+            "code": "M.SENT.GAUCHE",
+            "dimensions": {
+                "freq": "M",
+                "emotion": "SENT",
+                "account": "GAUCHE"
+            }
+        },
+        {
+            "code": "M.SENT.EXTREMEGAUCHE",
+            "dimensions": {
+                "freq": "M",
+                "emotion": "SENT",
+                "account": "EXTREMEGAUCHE"
+            }
+        },
+        {
+            "code": "M.SENT.LIBE",
+            "dimensions": {
+                "freq": "M",
+                "emotion": "SENT",
+                "account": "LIBE"
+            }
+        },
+        {
+            "code": "M.SENT.LEMONDEFR",
+            "dimensions": {
+                "freq": "M",
+                "emotion": "SENT",
+                "account": "LEMONDEFR"
+            }
+        },
+        {
+            "code": "M.SENT.LE_FIGARO",
+            "dimensions": {
+                "freq": "M",
+                "emotion": "SENT",
+                "account": "LE_FIGARO"
+            }
+        },
+        {
+            "code": "M.SENT.VALEURS",
+            "dimensions": {
+                "freq": "M",
+                "emotion": "SENT",
+                "account": "VALEURS"
+            }
+        },
+        {
+            "code": "M.SENT.THINKER_VIEW",
+            "dimensions": {
+                "freq": "M",
+                "emotion": "SENT",
+                "account": "THINKER_VIEW"
+            }
+        },
+        {
+            "code": "M.SENT.HUGODECRYPTE",
+            "dimensions": {
+                "freq": "M",
+                "emotion": "SENT",
+                "account": "HUGODECRYPTE"
+            }
+        },
+        {
+            "code": "M.SENT.KONBINI",
+            "dimensions": {
+                "freq": "M",
+                "emotion": "SENT",
+                "account": "KONBINI"
+            }
+        },
+        {
+            "code": "M.SENT.QOFFICIEL",
+            "dimensions": {
+                "freq": "M",
+                "emotion": "SENT",
+                "account": "QOFFICIEL"
+            }
+        },
+        {
+            "code": "M.SENT.LACROIX",
+            "dimensions": {
+                "freq": "M",
+                "emotion": "SENT",
+                "account": "LACROIX"
+            }
+        },
+        {
+            "code": "M.SENT.LESECHOS",
+            "dimensions": {
+                "freq": "M",
+                "emotion": "SENT",
+                "account": "LESECHOS"
+            }
+        },
+        {
+            "code": "M.SENT.HUMANITE_FR",
+            "dimensions": {
+                "freq": "M",
+                "emotion": "SENT",
+                "account": "HUMANITE_FR"
+            }
+        },
+        {
+            "code": "M.SENT.CANARDENCHAINE",
+            "dimensions": {
+                "freq": "M",
+                "emotion": "SENT",
+                "account": "CANARDENCHAINE"
+            }
+        },
+        {
+            "code": "M.SENT.MEDIAPART",
+            "dimensions": {
+                "freq": "M",
+                "emotion": "SENT",
+                "account": "MEDIAPART"
+            }
+        }
+    ]
+}
